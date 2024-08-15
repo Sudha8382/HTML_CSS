@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.box{
+    height: 700px;
+    width: 1200px;
+    background:url("ccc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+}
+.box1{
+    height: 700px;
+    width: 1200px;
+    background: rgba( 33,167,42,.4);
+    border: 5px solid black;
+}
+.inner{
+    height: 400px;
+    width: 600px;
+    background:#d7d7d1 ;
+    margin: 100px auto;
+    padding: 75px 75px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.a{
+    font-size: 20px ;
+    text-transform: capitalize;
+    height: 40px;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 20px;
+}
+.b{
+   color: white;
+    background-color: rgb(79, 79, 230); 
+    margin-top: 20px;
+    font-size: 20px ;
+    text-transform: capitalize;
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 20px;
+}
+.a:hover{
+    background-color: rgb(74, 74, 238);
+    color: white;
+}
+.inner:hover{
+    background: pink;
+    box-shadow: 0px 0px 7px 20px blue;
+}
+.b:hover{
+    color: rgb(59, 20, 158);
+    background: white;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="inner">
+                <input class="a" type="email" placeholder="your email address"><br/>
+                <input class="a" type="password" placeholder="your password"/><br/>
+                <input  type="checkbox">agree with your terms and conditions!<br/>
+                <input class="b" type="submit"placeholder="login"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

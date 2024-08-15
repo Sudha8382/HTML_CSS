@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 800px;
+            width: 1200px;
+            border: 1px solid black;
+            margin: 0px auto;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* .nav{
+            height: 70px;
+            width: 100%;
+            background-color: aqua;
+        } */
+        .mid{
+            height: 500px;
+            width: 100%;
+            background:url("kk.jpg");
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+        }
+        .bottom{
+            height: 230px;
+            width: 100%;
+            background-color: black;
+            padding-top: 90px;
+            padding-left: 100px;
+        }
+.nav{
+    height: 100%;
+    width: 80%;
+    background-color:white;
+    float: left;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    text-align: center;
+    text-transform: uppercase;
+    height: 70px;
+    width: 100px;
+    line-height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    font-weight: bold;
+    transform: translateY(5px);
+    margin-left: 25px;
+    transition: all 4s;
+}
+.nav ul a{
+    text-decoration: none;
+}
+.nav ul li:hover{
+    background-color: orange;
+    color: pink;
+    box-shadow: 0px 0px 2px 5px blueviolet;
+    transition: all 2s;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.upper{
+    height: 70px;
+    width: 1200px;
+}
+.mid1{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient( to right ,rgba(255,255,255,1),rgba(255,255,255,.7),rgba(255,255,255,.1));
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="upper">
+        <div class="logo"><p style="font-size: 30px;text-transform: uppercase;height: 70px;line-height: 70px; font-weight: bold;margin-left: 70px;">acura</p></div>
+        <div class="nav">
+                <ul>
+                    <a href=""><li>home</li></a>
+                    <a href=""><li>tutorial</li></a>
+                    <a href=""><li>wallpaper</li></a>
+                    <a href=""><li>teamwork</li></a>
+                    <a href=""><li>feedback</li></a>
+                    <a href=""><li>contact </li></a>
+                    <a href=""><li>about us</li></a>
+                </ul>
+        </div>
+    </div>
+        <div class="mid">
+            <div class="mid1"><div class="left"  style="height: 100%; width: 50%; float: left; padding-top: 200px;";><p style="font-weight: bold; text-align: center;">creative</p>
+                <p style="font-size: 18px; text-align: center;">we create the opportunity</p>
+            </div>
+            <div class="right" style="height: 100%; width: 50%; float: left;"></div>
+        </div>
+        </div>
+        <div class="bottom">
+            <p style="font-size: 30px; color: white;text-transform: uppercase;">best business consulting</p>
+            <p style="padding-right: 500px; color: white;padding-top: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eligendi illo fugit dolorum deserunt molestiae doloremque omnis labore quod? Recusandae sapiente tempora assumenda eum repellat quasi, officia sint aut odit.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

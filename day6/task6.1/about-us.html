@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box{
+            height: 700px;
+            width: 1200px;
+            margin: 0px auto;
+            background-color: white;
+            padding-top: 30px;
+            box-sizing: border-box;
+        }
+        .box p{
+            font-size: 40px;
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: bold;
+            text-shadow: 2px 2px 2px black;
+            color: blue;
+        }
+        .sub{
+            height: 500px;
+            width: 1000px;
+            margin: 10px auto;
+        }
+        .top,.bottom{
+            height: 50%;
+            width: 100%;
+        }
+        .top1{
+            height: 90%;
+            width: 25%;
+            border: 1px solid black;
+            float: left;
+            margin-left: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            transition: all 1s;
+            border-radius: 15px;
+            background-color: aqua;
+            box-shadow: 0px 0px 2px 5px blue;
+            font-size: 50px;
+            text-transform: capitalize;
+            text-align: center;
+            padding-top: 50px;
+            text-shadow: 5px 5px 2px black;
+            color: blue;
+            box-sizing: border-box;
+        }
+        .top1:hover{
+            color: white;
+            box-shadow: 0px 0px 2px 5px #569cd6,0px 0px 2px 10px red;
+            transition: all 1s;
+            transform: skewX(5deg);
+            background-color: rgb(69, 12, 238);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>here we tell you about our trainging</p>
+        <div class="sub">
+            <div class="top">
+                <div class="top1"> java full stack</div>
+                <div class="top1">mern full stack</div>
+                <div class="top1"> python full stack</div>
+            </div>
+            <div class="bottom">
+                <div class="top1">php full stack</div>
+                <div class="top1">android developer</div>
+                <div class="top1">server side program</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

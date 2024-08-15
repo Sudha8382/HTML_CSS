@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 700px;
+            width: 1200px;
+            background-color: blueviolet;
+            margin: 50px auto;
+            box-shadow: 0px 0px 3px 10px green;
+            box-sizing: border-box;
+            animation-name: abc;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transition: all 4s;
+    
+        }
+        @keyframes abc{
+            0%{
+                background: url("cc.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition:all 4s;
+            }
+            25%{
+                background: url("clo.webp");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition:all 4s;
+            }
+            50%{
+                background: url("clou.jpeg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition:all 4s;
+            }
+            75%{
+                background:url ("cl.jpeg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition:all 4s;
+            }
+            100%{
+                background: url("ccc.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition:all 4s;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

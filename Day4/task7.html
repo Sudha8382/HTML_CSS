@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+.main-box{
+    height: 810px;
+    width: 1200px;
+    margin: 0px auto;
+}
+}
+.left,.right{
+    height:810px;
+    width: 600px;
+    float: left;
+}
+.top-left,.bottom-right{
+    height: 400px;
+    width: 600px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.top-right,.bottom-left{
+    height: 410px;
+    width: 600px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.top-right-left,.top-right-right{
+    height: 410px;
+    width: 300px;
+    float: left;
+}
+    .a,.b{
+        height: 205px ;
+        width: 300px;
+        border: 5px solid black;
+        box-sizing: border-box;
+    }
+    .bg{
+        background-color: rgb(237, 18, 91);
+    }
+</style>
+</head>
+<body>
+    <div class="main-box">
+        <div class="left">
+            <div class="top-left"></div>
+            <div class="bottom-left">
+                <div class="top-right-left">
+                    <div class="a"></div>
+                    <div class="b bg "></div>
+                </div>
+                <div class="top-right-right">
+                    <div class="a"></div>
+                    <div class="b"></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="top-right">
+                <div class="top-right-left">
+                    <div class="a"></div>
+                    <div class="b bg"></div>
+                </div>
+                <div class="top-right-right">
+                    <div class="a"></div>
+                    <div class="b"></div>
+                </div>
+            </div>
+            <div class="bottom-right"></div>
+        </div>
+    </div>
+</body>
+</html>

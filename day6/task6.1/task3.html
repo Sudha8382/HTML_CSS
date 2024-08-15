@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url("aa.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box{
+    height: 800px;
+    width: 800px;
+    border: 1px solid black;
+    margin: 0px auto;
+    background:rgba(128,128,128,.5) ;
+}
+.top,.bottom{
+    height: 80px;
+    width: 800px;
+}
+.middle{
+    height: 640px;
+    width: 800px;
+    background:#040e1d;
+    transition: all 4s;
+}
+.tt{
+    height: 60px;
+    width: 150px;
+font-size: 30px;
+background: transparent;
+margin-top: 10px;
+margin-left: 20px;
+border: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+border-radius: 10px;
+}
+.bott{
+    height: 80px;
+    width: 500px;
+    float: left;
+}
+.bot{
+    height: 80px;
+    width: 300px;
+    float: left;
+}
+.bb{
+    height: 60px;
+    width: 120px;
+    margin-top: 10px;   
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+}
+.tt:hover{
+    background-color: #0ac749;
+    box-shadow: 0px 0px 2px 5px yellow;
+}
+.bb:hover{
+    background-color: #0ac749;
+    box-shadow: 0px 0px 2px 5px yellow;
+}
+.middle tr td{
+    font-size: 25px;
+    height: 40px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+table{
+    margin-left: 150px;
+    margin-bottom: 150px;
+    margin-right: 50;
+}
+.a{
+    height: 40px;
+    width: 430px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: none;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.b{
+    color: #757575;
+}
+.middle table tr{
+margin-bottom: 20px;
+}
+.middle:hover{
+    background-color: rgb(41, 164, 41);
+    box-shadow: 0px 0px 2px 5px yellow;
+    transition: all 4s;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top"><input type="button" value="Sign Up" class="tt"></div>
+        <div class="middle">
+                <form action="post">
+                    <table>
+                        <tr>
+                            <td>first name</td>
+                            <td> <input class="a" type="text" placeholder="enter your name"></td>
+                        </tr>
+                        <tr>
+                            <td>last name</td>
+                            <td><input   class="a"type="text" placeholder="enter last name"></td>
+                        </tr>
+                        <tr>
+                            <td>screen namr</td>
+                            <td><input class="a"  type="text" placeholder="enter screen name"></td>
+                        </tr>
+                        <tr>
+                            <td>date of birth</td>
+                            <td> <input type="month" class="a"></td>
+                        </tr>
+                        <tr>
+                            <td>gender</td>
+                            <td>
+                                <input type="radio"name="a">Male
+                                <input type="radio" name="a">Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>country</td>
+                            <td>
+                                <select class="a" name="" id="" >
+                                    <option class="b"  value="">usa</option>
+                                    <option class="b" value="">india</option>
+                                    <option class="b" value="">briten</option> 
+                                    <option class="b" value="">uk</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>gmail</td>
+                            <td><input class="a" type="Email" placeholder="enter email"></td>
+                        </tr>
+                        <tr>
+                            <td>phone</td>
+                            <td><input type="number" class="a" placeholder="enter phone"></td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td><input type="password" name="" id="" class="a"></td>
+                        </tr>
+                        <tr>
+                            <td class="c">confirm password</td>
+                            <td><input type="password" class="a"></td>
+                        </tr><tr><td></td><td>
+                        <input type="checkbox">i agree to the term of use</td>
+                    </tr>
+                    </table>
+                    
+                </form>
+        </div>
+        <div class="bottom"> 
+            <div class="bott"></div>
+            <div class="bot">
+            <input type="submit" class="bb" value="submit"/>
+            <input type="reset" class="bb" value="cancle"/>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

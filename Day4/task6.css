@@ -1,0 +1,26 @@
+.a{
+    background-color: aqua;
+    border: 5px solid red;
+    font-size: 25px;
+    color: green;
+    box-shadow: 10px 10px 4px 10px blue;
+    height: 150px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.b{
+    height: 200px;
+    width: 1000px;
+    margin: 50px auto;
+    background-color: blueviolet;
+    border: 5px double maroon;
+    font-size: 25px;
+    color: white;
+    font-family: cursive;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: -10px -10px 4px 10px rgb(52, 3, 12);
+}
